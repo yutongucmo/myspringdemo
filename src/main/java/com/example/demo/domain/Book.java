@@ -8,7 +8,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-// Add something here on 20240223, just for testing git add
+// For GitHub push testing, let's make some changes on this domain file
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -21,6 +21,5 @@ public class Book {
     private Long id; // DECIMAL0
     private String title; // VARCHAR -- variable-lengthed string
     private String author;
-
-
+    private double price;
 }
