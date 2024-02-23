@@ -23,3 +23,5 @@ public class Book {
     private String author;
     private double price;
 }
+// Check Status: (git status) -->Check the state of the working directory
+// and the staging area
