@@ -16,6 +16,7 @@ import lombok.NoArgsConstructor;
 @Entity
 public class Book {
 
+    // Add something just for branch2
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id; // DECIMAL0
