@@ -27,6 +27,8 @@ public class Book {
     private double price;
     private String publisher;
 
+    private int pbn;
+
 
     public double getPrice() {
         return price;
