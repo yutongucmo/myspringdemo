@@ -15,13 +15,34 @@ import lombok.NoArgsConstructor;
 @Entity
 public class Book {
 
-    //
+    // Test Git Command: adding some new properties to the Book domain
+    // When creating a new file or updating an existing file under git env,
+    // --> I strongly suggest you to go to the "End Path" everytime
+    // Because it avoids making unnecessary changes
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id; // primary key in the h2 database
     private String title;
     private String author;
-    private String test = "Yutong: Hahahahahahahahha!!!!!";
+    private double price;
+    private String publisher;
+
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public String getPublisher() {
+        return publisher;
+    }
+
+    public void setPublisher(String publisher) {
+        this.publisher = publisher;
+    }
 
     public Long getId() {
         return id;
